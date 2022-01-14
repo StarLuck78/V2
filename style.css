@@ -1,0 +1,185 @@
+body {
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--FUFoeQpW--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/p5wilmn62vczuw4z7kjy.png");
+    background-size:cover;
+}
+titre {background-color:darkseagreen; font-size:30px; font-weight: bold;}
+
+.titrePrincipal{
+    position:relative;
+    top: 5%;
+    right : 10%
+    
+}
+
+.btn{
+    position:relative;
+    left:85%;
+}
+
+.forumTitle{
+    position:relative;
+    margin-right:200px;
+    margin-left:200px;
+    border : 1px solid rgb(0, 0, 0);
+    text-align: left;
+    color:white;
+    background-color:grey;
+    font-size:20px;
+}
+
+.forumSubject{
+    position:relative;
+    margin-right:200px;
+    margin-left:200px;
+    border : 0px solid rgb(0, 0, 0);
+    text-align: left;
+    font-size:15px;
+}
+
+.forumSubject:hover{font-weight: bold;}
+
+.blocGauche, .blocDroit {
+    position : absolute;
+    width: 200px;
+    border : 0px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color:transparent;
+}
+.blocDroit{
+    right:0px;
+    background-color:transparent;
+}
+
+.blocGauche{
+    left:0px;
+    background-color:transparent;
+}
+
+.blocCentre{
+    position:relative;
+    border : 0px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+h1{
+    font-size:xx-large;
+    position:relative;
+    top: 5%;
+}
+
+a {
+    text-decoration: none ;
+ }
+
+.danger::after {content: "ça a l'air de fonctionner"; color:green}
+.gras:hover {font-weight: bold;}
+
+nav { 
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    position: sticky;
+    top: 0px
+}
+
+nav ul {
+    list-style-type: none;
+    margin-right:15%
+}
+
+nav ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    border : 1px solid rgb(0, 0, 0);
+}
+
+nav ul::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+nav a{
+    display: block;
+    text-decoration:none;
+    color:black;
+    border-bottom:2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+.sous{
+    display:none;
+    box-shadow: 0px 0px 2px transparent;
+    background-color:transparent;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+}
+
+#contact {
+    position : absolute;
+    bottom : 0px;
+    left : 50px;
+}
+
+#equipe {
+    position : absolute;
+    bottom : 0px;
+    left : 150px;
+}
+
+
+footer{
+    position : fixed;
+    bottom : 0px;
+}
+
+.blocScroll {
+    position : absolute;
+    width: 500px;
+    height: 200px;
+    border : 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    margin-left:33%;
+  }
+
+.tchat{
+    text-align:left;
+    text-indent:5px;
+}
+
+.pseudoTchat{
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.dateTchat{
+    font-size:10px;
+    font-style:italic;
+}
+
+.messageTchat{
+    font-size:15px;
+}
+
+.wikiCenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sousMenu{
+    width: 100%;
+}
+
+.menuCenter{
+    margin-left:20%
+}
